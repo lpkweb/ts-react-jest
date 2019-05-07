@@ -1,0 +1,43 @@
+{
+  "name": "lpk-ts-react-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.base.conf.js",
+    "dev": "webpack-dev-server --config build/webpack.base.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@types/jest": "^24.0.12",
+    "@types/react": "^16.8.16",
+    "@types/react-dom": "^16.8.4",
+    "antd": "^3.17.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "immutable": "^4.0.0-rc.12",
+    "mini-css-extract-plugin": "^0.6.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "scripty": "^1.9.1",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
